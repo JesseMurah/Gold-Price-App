@@ -179,10 +179,10 @@ function genId() {
 type ToastPrimitivesRoot = typeof import("@radix-ui/react-toast").Root
 type ToastPrimitivesAction = typeof import("@radix-ui/react-toast").Action
 // @ts-expect-error
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Toast: ToastPrimitivesRoot = null
 // @ts-expect-error
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const ToastAction: ToastPrimitivesAction = null
 
 export { useToast, toast }
