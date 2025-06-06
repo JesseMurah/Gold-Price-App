@@ -178,11 +178,9 @@ function genId() {
 // Type-only imports will be removed by the bundler.
 type ToastPrimitivesRoot = typeof import("@radix-ui/react-toast").Root
 type ToastPrimitivesAction = typeof import("@radix-ui/react-toast").Action
-// @ts-expect-error
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// @ts-expect-error - Dummy variable for type reference
 const Toast: ToastPrimitivesRoot = null
-// @ts-expect-error
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// @ts-expect-error - Dummy variable for type reference
 const ToastAction: ToastPrimitivesAction = null
 
 export { useToast, toast }
