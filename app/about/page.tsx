@@ -33,7 +33,7 @@ export default function AboutPage() {
           <p className="text-gray-700 leading-relaxed mb-4">Our tool takes into account:</p>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed mb-4 pl-4">
             <li>World Market Spot Price</li>
-            <li>Discounts applicable in specific markets (e.g., Dubai)</li>
+            <li>Discounts applicable in specific markets (e.g. Dubai)</li>
             <li>Transportation costs</li>
             <li>Losses due to melting and karat variations</li>
             <li>Local market prices (e.g., Ghana)</li>
